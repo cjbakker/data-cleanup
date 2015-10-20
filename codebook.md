@@ -1,6 +1,7 @@
 ##Project Description
 
 The goal was to create an R script (run_analysis.R) that does the following:
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
@@ -31,7 +32,8 @@ Aside from labels and subject identifiers, data was organized in two sub-folders
 6. The three files were combined into one with cbind.
 7. Columns that included mean or standard deviation were identified using grepl
 8. The complete dataset was subset using the columns identified in Step 4
-9. A tidy data set isolating the average of each variable for each activity and each subject is created using melt and dcast. 
+9. A tidy data set isolating the average of each variable for each activity and each subject is created using melt and dcast.
+
 Please see the readme.txt file for detailed instructions.
 
 ##Variables
