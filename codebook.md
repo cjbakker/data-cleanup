@@ -32,7 +32,6 @@ Aside from labels and subject identifiers, data was organized in two sub-folders
 7. Columns that included mean or standard deviation were identified using grepl
 8. The complete dataset was subset using the columns identified in Step 4
 9. A tidy data set isolating the average of each variable for each activity and each subject is created using melt and dcast. 
-
 Please see the readme.txt file for detailed instructions.
 
 ##Variables
@@ -50,13 +49,13 @@ These signals were used to estimate variables of the feature vector for each pat
 
 In cleaning the data and to improve readability, some changes were made to the names. These are listed below: 
 
-bodyacceleration-xyz: formerly tBodyAcc-XYZ and fBodyAcc-XYZ
-gravityacceleration-xyz: formerly tGravityAcc-XYZ
-bodyaccelerationjerk-xyz: formerly tBodyAccJerk-XYZ and fBodyAccJerk-XYZ
-bodygyroscope-xyz: formerly tBodyGyro-XYZ and fBodyGyro-XYZ
-bodygyroscopejerk-xyz: formerly tBodyGyroJerk-XYZ 
-bodyaccelerationmag-xyz: formerly tBodyAccMag and fBodyAccMag
-gravityaccelerationmag-xyz: formerly tGravityAccMag
-bodyaccelerationjerkmag-xyz: formerly tBodyAccJerkMag and fBodyAccJerkMag
-bodygyroscopemag-xyz: formerly tBodyGyroMag and fBodyGyroMag
-bodygyroscopejerkmag-xyz: formerly tBodyGyroJerkMag and fBodyGyroJerkMag
+- bodyacceleration-xyz: formerly tBodyAcc-XYZ and fBodyAcc-XYZ
+- gravityacceleration-xyz: formerly tGravityAcc-XYZ
+- bodyaccelerationjerk-xyz: formerly tBodyAccJerk-XYZ and fBodyAccJerk-XYZ
+- bodygyroscope-xyz: formerly tBodyGyro-XYZ and fBodyGyro-XYZ
+- bodygyroscopejerk-xyz: formerly tBodyGyroJerk-XYZ 
+- bodyaccelerationmag-xyz: formerly tBodyAccMag and fBodyAccMag
+- gravityaccelerationmag-xyz: formerly tGravityAccMag
+- bodyaccelerationjerkmag-xyz: formerly tBodyAccJerkMag and fBodyAccJerkMag
+- bodygyroscopemag-xyz: formerly tBodyGyroMag and fBodyGyroMag
+- bodygyroscopejerkmag-xyz: formerly tBodyGyroJerkMag and fBodyGyroJerkMag
