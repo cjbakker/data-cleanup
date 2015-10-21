@@ -6,6 +6,7 @@
 2. Unzip the file in the appropriate directory
 3. If not already installed, install.packages("reshape2") and load library
 4. Calling run_analysis.R does the following:
+
 - Uses read.csv, to read each of the files contained in both the test and train folders (6 files total). 
 - Uses rbind to combine the complementary files (test/subject_test with train/subject_train, and so forth).
 - Uses colnames to apply column headers to the subjects and labels files
