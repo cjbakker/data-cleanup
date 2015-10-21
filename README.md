@@ -5,6 +5,7 @@ First, download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fpr
 ##Processing Steps
 
 Calling run_analysis.R does the following:
+
 1. Uses `install.packages("reshape2")` to install necessary packages if not already present
 2. Uses `read.csv`, to read each of the files contained in both the test and train folders (6 files total). 
 3. Uses `rbind()` to combine the complementary files (test/subject_test with train/subject_train, and so forth). This produces three files. 
