@@ -1,5 +1,14 @@
-library("reshape2")
-
+if(require("reshape2")){
+    print("reshape2 is installed")
+} else {
+    print("trying to install reshape2")
+    install.packages("reshape2")
+    if(require(reshape2)){
+        print("reshape2 installed and loaded")
+    } else {
+        stop("could not install required packages (reshape2)")
+    }
+}
 test_subject <- read.csv("UCI HAR Dataset/test/subject_test.txt", sep="", header=FALSE) 
 test_labels <- read.csv("UCI HAR Dataset/test/y_test.txt", sep="", header=FALSE)
 test_set <- read.csv("UCI HAR Dataset/test/X_test.txt", sep="", header=FALSE)
@@ -33,3 +42,4 @@ complete$labels[complete$labels==6] <- "laying"
 tidy <- melt(complete, id=c("subjects", "labels"))
 tidy <- dcast(tidy, subjects+labels ~ variable, mean)
 write.table(tidy, file="tidy.txt", row.name=FALSE) 
+print("tidy data set has been created")
