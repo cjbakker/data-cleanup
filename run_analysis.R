@@ -6,7 +6,7 @@ if(require("reshape2")){
     if(require(reshape2)){
         print("reshape2 installed and loaded")
     } else {
-        stop("could not install required packages (reshape2)")
+        stop("could not install the required package (reshape2)")
     }
 }
 test_subject <- read.csv("UCI HAR Dataset/test/subject_test.txt", sep="", header=FALSE) 
