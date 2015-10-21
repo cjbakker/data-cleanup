@@ -9,7 +9,7 @@ The goal was to create an R script (run_analysis.R) that does the following:
 
 Please see the codebook for details about variables and raw data. 
 
-##Processing Steps
+##Steps
 
 First, download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip the file, and set the working directory. 
 
