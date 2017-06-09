@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title: "Reproducible Research: This is a new title"
 output: 
   html_document:
     keep_md: true
